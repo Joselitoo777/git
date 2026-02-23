@@ -77,7 +77,13 @@
                 </li>
                 <li>
                     <h3>¿Cómo puedo crear un alias en git?</h3>
-                    [Pon tu respuesta]
+                    [Para crear un alias en Git, abres la terminal y escribes:
+                    Para que git st sea un atajo de git status:
+                    git config --global alias.st status
+                    Si solo quieres que funcione en un proyecto, omites --global:
+                    git config alias.st status
+                    Para otros alias, por ejemplo, que git co sea un atajo de git checkout:
+                    git config --global alias.co checkout]
                 </li>
             </ol>
         </div>
